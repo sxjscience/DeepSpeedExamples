@@ -2,7 +2,7 @@
 
 Install GluonNLP master
 ```
-nlp_data prepare_squad --version 1.1 --save_path squad
+nlp_data prepare_squad --version 1.1 --save-path squad
 cd ckpt
 wget https://s3.amazonaws.com/models.huggingface.co/bert/bert-large-uncased-whole-word-masking-pytorch_model.bin -O bert-large-uncased-whole-word-masking-pytorch_model.bin 
 wget https://s3.amazonaws.com/models.huggingface.co/bert/bert-large-uncased-whole-word-masking-config.json -O bert-large-uncased-whole-word-masking-config.json 
